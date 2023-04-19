@@ -1,0 +1,437 @@
+
+@media (max-width: 700px) {
+    body {
+      width: 100vw;
+      height: 100vh;
+    }
+  
+    #number {
+      display: flex;
+      height: 8vh;
+    }
+  
+    #svg {
+      margin-left: -50px;
+    }
+  
+    #svg h6 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    #del {
+      display: none;
+    }
+  
+    #navber {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    #coon {
+      margin-left: -25px;
+    }
+  
+    #moon {
+      margin-left: -40px;
+    }
+  
+    #bug {
+      display: block;
+      margin-left: -20px;
+    }
+  
+    #ico {
+      display: none;
+    }
+  
+    .carousel-item {
+      position: relative;
+      width: 100vw;
+      height: 90vh;
+      background: none;
+    }
+  
+    #sell {
+      position: absolute;
+      z-index: 1px;
+      top: 0;
+      margin-top: 200px;
+      margin-left: 40px;
+    }
+  
+    #sell h5 {
+      font-size: 30px;
+      color: white;
+    }
+  
+    #sell p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+  
+    #a:hover {
+      background: #dd0945e3;
+      border: 2px solid #e83e8dca;
+    }
+    #bitcoin {
+      margin-top: -15px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #acc {
+      width: 90%;
+      margin-left: 10px;
+    }
+  
+    #bitcoin svg {
+      margin-top: 20px;
+      margin-right: 20px;
+    } 
+  
+    #acco {
+      width: 90%;
+      margin-left:10px;
+    }
+  
+    #cout {
+      width: 90%;
+      margin-left: 10px;
+    }
+
+    #im{
+      margin: auto;
+    }
+  
+    #im img {
+      width: 350px;
+      height:350px;
+    }
+    
+    #buy{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    #rel h3 span {
+      display: block;
+    }
+  
+    #rel h3{
+      font-size: 22px;
+      font-weight:800 ;
+      color: #3f3a64;
+      margin-left: 10px;
+      font-family: "Prompt", sans-serif;
+    }
+    #rel p{
+      font-size: 19px;
+      color: #aa8484;
+      font-family: "Prompt", sans-serif;
+      font-weight: 530;
+      margin-left: 9px;
+    }
+    
+    #rel button {
+      width: 150px;
+      height: 50px;
+      font-size: 20px;
+      border-radius: 5px;
+      margin-left: 20px;
+      background: #d7650f;
+      color: white;
+      border: none;
+    }
+    
+    #rel button:hover {
+      background: #fd6e6e;
+    }
+  
+    #age img{
+      width: 350px;
+      margin-left:20px;
+      height:300px;
+    }
+  
+    #fea p {
+      font-size: 12px;
+      font-weight: 700;
+      font-family: "Prompt", sans-serif;
+    }
+    
+    #fea h3 {
+      font-size:20px;
+      font-weight: 900;
+      color: #3f3a64;
+      font-family: "prompt", sans-serif;
+    }
+  
+    #fea span {
+      display: block;
+    }
+  
+    #web {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 50px;
+    }
+  
+    #ple{
+      width: 80%;
+      margin: 30px;
+    }
+  
+    #ple h5 {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  
+    #ple p {
+      font-size:20px ;
+      font-weight: 700;
+    }
+  
+    #ast{
+      width: 80%;
+      margin: 30px;
+    }
+  
+    #ast h5 {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  
+    #ast p {
+      font-size:20px ;
+      font-weight: 700;
+    }
+  
+    #alw{
+      width: 80%;
+      margin: 30px;
+    }
+  
+    #alw h5 {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  
+    #alw p {
+      font-size:20px ;
+      font-weight: 700;
+    }
+  
+    #ins{
+      width: 80%;
+      margin: 30px;
+    }
+  
+    #ins h5 {
+      font-size: 30px;
+      font-weight: 700;
+    }
+  
+    #ins p {
+      font-size:20px ;
+      font-weight: 700;
+    }
+  
+    #quen p {
+      font-size: 25px;
+      font-weight: 600;
+      color: #172541;
+      margin-bottom: 80px;
+    }
+    
+    #quen h3 {
+      margin-top: 20px;
+      font-size: 40px;
+      color: #172541;
+      font-weight: 700;
+    }
+  
+    #trad {
+      display: flex;
+      flex-direction: column;
+      height: 40vh;
+    }
+  
+    #trad h3 {
+      font-size: 30px;
+      margin-left: 10%;
+      font-weight: 900;
+      margin-top: 10px;
+    }
+  
+    #trad a {
+      text-decoration: none;
+      color: black;
+      margin-top: 30px;
+    }
+    
+    #trad button {
+      border-radius: 3px;
+      width: 160px;
+      height: 50px;
+      margin-top: -15%;
+      margin-left: -50px;
+      background: white;
+      border: none;
+      margin: auto;
+    }
+  
+    /* ffffllflflf */
+  
+    #footer{
+      height: 183vh;
+    }
+  
+    #foot {
+      display: flex;
+      flex-direction: column;
+      margin-top:-50px;
+    }
+  
+    #ave {
+      margin-left: 40px;
+      margin-top: -7%;
+    }
+  
+    #gin {
+      margin-left: 40px;
+      margin-top: -1%;
+    }
+  
+    #lega {
+      margin-left: 40px;
+      margin-top: -1%;
+    }
+  
+    #ft {
+      margin-top: -1%;
+      margin-left: 40px;
+    }
+  
+    #copy {
+      text-align: center;
+      font-size: 17px;
+      color: #c2c2c2;
+      margin-top: 10px;
+    }
+
+  }
+    @media screen and (max-width:950px) {
+      
+    #nuber {
+      display: flex;
+      justify-content: space-around;
+      height: 50%;
+    }
+    #navber {
+      display: flex;
+      justify-content: space-between;
+    }
+    #coon{
+      margin-right: 20%;
+    }
+    #moon{
+      margin-right: -39%;
+    }
+    #ico {
+      display: none;
+    }
+    
+    #bug {
+      display: block;
+      margin-left: -20px;
+    }
+
+    #sell{
+      margin-left: 40px;
+    }
+    #bitcoin {
+      display: flex;
+      flex-direction: column;
+    }
+    #mey{
+      width: 80%;
+      margin: auto;
+    }
+
+    #im{
+      margin: auto;
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+
+    #buy{
+      display: flex;
+      flex-direction: column;
+      padding-top: 30px;
+    }
+
+    #rel{
+      margin: auto;
+    }
+
+    #age{
+      margin: auto;
+    }
+
+    #web {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    
+    #ple{
+      margin: auto;
+      width: 80%;
+      margin-bottom: 30px;
+      height: 50vh;
+    }
+
+    #web h5{
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    #web p {
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    #web span{
+      display: inline-block;
+    }
+
+
+    #ast{
+      margin: auto;
+      width: 80%;
+      margin-bottom: 30px;
+      height: 50vh;
+    }
+
+    #alw{
+      margin: auto;
+      width: 80%;
+      margin-bottom: 30px;
+      height: 58vh;
+    }
+
+    #ins{
+      margin: auto;
+      width: 80%;
+      margin-bottom: 30px;
+      height: 55vh;
+    }
+
+    
+
+
+
+  
+    }
