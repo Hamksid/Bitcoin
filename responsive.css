@@ -320,6 +320,7 @@
       color: #c2c2c2;
       margin-top: 10px;
     }
+    /* rrrrr */
 
   }
     @media screen and (max-width:950px) {
@@ -390,7 +391,7 @@
       margin: auto;
       width: 80%;
       margin-bottom: 30px;
-      height: 50vh;
+      height: 55vh;
     }
 
     #web h5{
@@ -414,21 +415,21 @@
       margin: auto;
       width: 80%;
       margin-bottom: 30px;
-      height: 50vh;
+      height: 55vh;
     }
 
     #alw{
       margin: auto;
       width: 80%;
       margin-bottom: 30px;
-      height: 50vh;
+      height: 55vh;
     }
 
     #ins{
       margin: auto;
       width: 80%;
       margin-bottom: 30px;
-      height: 56vh;
+      height: 58vh;
     }
 
     
