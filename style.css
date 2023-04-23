@@ -767,7 +767,7 @@ body {
 }
 
 #mgg img{
-  margin-top: 60px;
+  margin-top: 30px;
   margin-left: 43%;
 }
 
@@ -781,7 +781,7 @@ body {
 }
 
 #str{
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left:10% ;
   font-size: 34px;
   text-align: start;
@@ -799,7 +799,7 @@ body {
 }
 
 #regs svg{
-  margin-top: 7px;
+  margin-top: 5px;
   margin-left: 10px;
 }
 
@@ -922,7 +922,7 @@ body {
  #hr{
   width: 60%;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
  }
 
 #ead{
@@ -1006,6 +1006,181 @@ body {
   margin-bottom: 20px;
 }
 
+/* loginnnn */
+
+
+#bodyy{
+  background: white;
+  margin: auto;
+  margin-top:20px ;
+  margin-bottom: 20px;
+  width: 78%;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+#disp{
+  margin-top:10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -5px;
+}
+
+#forg{
+  margin-top: 2px;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  font-size: 20px;
+}
+
+#forg a{
+  text-decoration: none;
+  color: #000;
+}
+
+#forg a:hover{
+  text-decoration: underline;
+  color: #d7650f;
+}
+
+
+
+
+
+
+.checkbox-wrapper-37 input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-wrapper-37 .terms-label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-wrapper-37 .terms-label .label-text {
+  margin-left: 10px;
+}
+
+.checkbox-wrapper-37 .checkbox-svg {
+  width: 30px;
+  height: 20px;
+}
+
+.checkbox-wrapper-37 .checkbox-box {
+  fill: #fff;
+  stroke: #ff7a00;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  transition: stroke-dashoffset 0.6s ease-in;
+}
+
+.checkbox-wrapper-37 .checkbox-tick {
+  stroke: #ff7a00;
+  stroke-dasharray: 172;
+  stroke-dashoffset: 172;
+  transition: stroke-dashoffset 0.6s ease-in;
+}
+
+.checkbox-wrapper-37 input[type="checkbox"]:checked + .terms-label .checkbox-box,
+  .checkbox-wrapper-37 input[type="checkbox"]:checked + .terms-label .checkbox-tick {
+  stroke-dashoffset: 0;
+}
+
+
+
+#logg {
+  width: 150px;
+  height: 45px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 2px;
+  border: none;
+  position: relative;
+  background: #d7650f;
+  transition: 0.1s;
+}
+
+#logg::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+  filter: blur(15px);
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#logg:active {
+  transform: scale(0.9) rotate(3deg);
+  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+  transition: 0.5s;
+}
+
+#ont{
+  text-align: center;
+  margin-bottom:3%;
+}
+
+#tton{
+  margin-left: 38%;
+  margin-bottom: 15px;
+}
+
+.button {
+  --color: #ffff0050;
+  --dark: #00000080;
+  --fw: bold;
+  --fs: 1rem;
+  --pd: 1rem;
+  background-color: var(--color);
+  background-image: linear-gradient(-45deg, var(--dark) 50%, trasn 50%);
+  color: var(--dark);
+  padding: var(--pd) calc(var(--pd) * 2);
+  font-weight: var(--fw);
+  font-size: var(--fs);
+  border-radius: 10px;
+  box-shadow: 5px 5px  var(--dark);
+  border: 1px solid var(--dark);
+  cursor: pointer;
+  transition: .1s linear;
+  position: relative;
+  overflow: hidden;
+  transform: skew(-10deg);
+}
+
+.button:hover {
+  background-color: #d7650f;
+}
+
+.button::before {
+  content: '⊶';
+  color: var(--dark);
+  position: absolute;
+  left: 5%;
+  top: 0%;
+  opacity: 0.5;
+}
+
+.button::after {
+  content: '⊷';
+  color: var(--dark);
+  position: absolute;
+  right: 5%;
+  bottom: 0%;
+  opacity: 0.5;
+}
+
+button:active {
+  background-image: linear-gradient(-45deg, var(--dark) 100%);
+  box-shadow: 0 0;
+  margin-top: 5px;
+  margin-left: 5px;
+  --dark: #000000C0;
+}
 
 
 /* media */
