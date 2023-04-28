@@ -767,7 +767,7 @@ body {
 }
 
 #mgg img{
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 43%;
 }
 
@@ -795,7 +795,7 @@ body {
   width: 90%;
   border: 1px solid rgb(115, 115, 151);
   height: 35px;
-  margin-top: 20px;
+  margin-top:15px;
 }
 
 #regs svg{
@@ -1020,7 +1020,7 @@ body {
 }
 
 #disp{
-  margin-top:10px;
+  margin-top:8px;
   display: flex;
   justify-content: space-evenly;
   margin-left: -5px;
@@ -1029,13 +1029,14 @@ body {
 #forg{
   margin-top: 2px;
   margin-bottom: 2%;
-  margin-left: 10%;
+  margin-left: 40%;
   font-size: 20px;
 }
 
 #forg a{
   text-decoration: none;
   color: #000;
+  margin: auto;
 }
 
 #forg a:hover{
@@ -1047,7 +1048,9 @@ body {
 
 
 
-
+.label-text{
+  font-size: 13px;
+}
 .checkbox-wrapper-37 input[type="checkbox"] {
   display: none;
 }
@@ -1063,8 +1066,8 @@ body {
 }
 
 .checkbox-wrapper-37 .checkbox-svg {
-  width: 30px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
 }
 
 .checkbox-wrapper-37 .checkbox-box {
@@ -1090,7 +1093,7 @@ body {
 
 
 #logg {
-  width: 150px;
+  width: 100px;
   height: 45px;
   cursor: pointer;
   color: #fff;
